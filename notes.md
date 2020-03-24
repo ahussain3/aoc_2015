@@ -9,6 +9,10 @@ run it. It's weird to have so little visibility into what the program is
 doing, but then it always spits out the correct answer as soon as you've
 fixed the compiler errors
 
+Haskell's package management is atrocious. I just need to install a library
+that helps me generate an md5 hash from a string and it is proving to be
+much more difficult that it ought to be
+
 Questions:
 - Is there a "spread" operator? Such that I can pass a [Int] of length 3
   into a function that takes Int -> Int -> Int as input?
