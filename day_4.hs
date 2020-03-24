@@ -9,5 +9,5 @@ hash :: Int -> String
 hash a = show $ md5 $ C.pack (format a)
 
 main = do
-    let res = find (\x -> "00000" == take 5 (hash x)) [1..]
+    let res = find (\x -> "000000" == take 6 (hash x)) [1..]
     print res
